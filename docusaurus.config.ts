@@ -15,16 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://yourusername.github.io',
+  url: 'https://spec-driven-book.vercel.app', // Updated for Vercel
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-robotics/',
+  // For Vercel deployment, use '/'
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yourusername', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-robotics', // Usually your repo name.
-  deploymentBranch: 'gh-pages', // The branch to deploy to.
+  // Vercel deployment config
+  // organizationName: 'AsgharZaheer', // Your GitHub org/user name.
+  // projectName: 'spec-driven-book', // Your repo name.
+  // deploymentBranch: 'main', // The branch to deploy to.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
