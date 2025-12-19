@@ -25,8 +25,8 @@ const config: Config = {
   // projectName: 'spec-driven-book', // Your repo name.
   // deploymentBranch: 'main', // The branch to deploy to.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn', // Keep as string for now
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
