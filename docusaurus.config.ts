@@ -26,7 +26,7 @@ const config: Config = {
   // deploymentBranch: 'main', // The branch to deploy to.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn', // Keep as string for now
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -59,7 +59,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: true, // Disable switch to avoid localStorage during build
+      respectPrefersColorScheme: false, // Disable to avoid localStorage during build
     },
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
